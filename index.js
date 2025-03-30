@@ -7,6 +7,7 @@ const port = process.env.PORT || 8000;
 // Middleware to parse JSON request bodies
 app.use(express.json());
 
+
 // Middleware to log incoming requests
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
