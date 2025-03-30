@@ -6,7 +6,7 @@ const port = process.env.PORT || 8000;
 
 
 
-// Middleware to parse JSON request bodies
+// Middleware to parse JSON request bodis
 app.use(express.json());
 
 
