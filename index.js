@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 // Endpoint to respond with "hello world" in JSON format when accessing the root ("/")
 app.get("/", (req, res) => {
   console.log("hello world");
-  res.json({ message: "hello world 2" });
+  res.json({ message: "hello world 3" });
 });
 
 // Start the server and listen on the provided port
